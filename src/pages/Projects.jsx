@@ -15,7 +15,7 @@ const projectsData = [
     "A responsive weather application that displays real-time weather data, including temperature, conditions, and location-based forecasts using a public weather API.",
   image: "/images/weather_app.png",
   skills: ["HTML", "CSS", "JavaScript", "API Integration"],
-  live: "https://weather-app-sigma-cyan-30.vercel.app/",
+  live: "https://brij-mohan-portfolio.vercel.app/",
   github: "https://github.com/brij-mohan09/weather_app",
 },
   // {
