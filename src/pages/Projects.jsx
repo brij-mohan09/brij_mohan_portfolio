@@ -40,7 +40,7 @@ const projectsData = [
   title: "Task Manager App",
   description:
     "A task management application that allows users to add, edit, delete, and track tasks with a clean and responsive interface built using React.",
-  image: "/images/dev_img.webp",
+  image: "/images/task_manager.png",
   skills: ["HTML", "CSS", "React", "JavaScript"],
   live: "https://react-task-manager-pied.vercel.app/",
   github: "https://github.com/brij-mohan09/react_task_manager",
