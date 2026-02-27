@@ -1,15 +1,17 @@
-import { FaLinkedinIn, FaGithub } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub, FaWhatsapp } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="container">
         <div className="copyright">
-            <p>&copy; Copyright Reserved 2026 | <span>Brij Mohan</span></p>
+            <p>&copy; Copyright Reserved 2026 | <span><NavLink to="/">Brij Mohan</NavLink></span></p>
         </div>
         <div className="social-link">
-            <FaLinkedinIn />
-            <FaGithub />
+          <a href="https://www.linkedin.com/in/brij-mohan09/" target="_blank"><FaLinkedinIn /></a>
+          <a href="https://github.com/brij-mohan09" target="_blank"><FaGithub /></a>
+          <a href="https://wa.me/917545099366" target="_blank" rel="noopener noreferrer"><FaWhatsapp /></a>
         </div>
       </div>
     </footer>

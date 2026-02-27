@@ -1,67 +1,38 @@
-
-import { useRef } from "react";
-
 const Contact = () => {
-  const nameRef = useRef(null);
-  const emailRef = useRef(null);
-  const phoneRef = useRef(null);
-  const messageRef = useRef(null);
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-
-    const formData = {
-      name: nameRef.current.value,
-      email: emailRef.current.value,
-      phone: phoneRef.current.value,
-      message: messageRef.current.value,
-    };
-
-    console.log("Contact Form Data:", formData);
-
-    // Reset form
-    nameRef.current.value = "";
-    emailRef.current.value = "";
-    phoneRef.current.value = "";
-    messageRef.current.value = "";
-  };
-
   return (
     <section className="contact-section">
       <div className="contact-container container">
         <div className="contact-header">
-          <h1>Get In Touch</h1>
-          <p>
-            Have a project in mind or just want to say hello?
-            Fill out the form below.
-          </p>
+          <h1>Contact Me</h1>
+          <p>You can reach me through the following channels.</p>
         </div>
 
-        <form className="contact-form" onSubmit={handleSubmit}>
-          <div className="contact-group">
-            <input type="text" ref={nameRef} required />
-            <label>Name</label>
+        <div className="contact-info">
+          <div className="contact-item">
+            <span className="label">Name:</span>
+            <span className="value">Brij Mohan</span>
           </div>
 
-          <div className="contact-group">
-            <input type="email" ref={emailRef} required />
-            <label>Email</label>
+          <div className="contact-item">
+            <span className="label">Email:</span>
+            <a className="value" href="mailto:your.email@example.com">brijmohan9297@gmail.com</a>
           </div>
 
-          <div className="contact-group">
-            <input type="tel" ref={phoneRef} required />
-            <label>Contact Number</label>
+          <div className="contact-item">
+            <span className="label">Phone:</span>
+            <a className="value" href="tel:+1234567890">+91 75450 99366</a>
           </div>
 
-          <div className="contact-group">
-            <textarea rows="5" ref={messageRef} required />
-            <label>Message</label>
+          <div className="contact-item">
+            <span className="label">WhatsApp:</span>
+            <a className="value" href="https://wa.me/917545099366" target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a>
           </div>
 
-          <button className="contact-btn" type="submit">
-            Send Message
-          </button>
-        </form>
+          <div className="contact-item">
+            <span className="label">Address:</span>
+            <span className="value">Skanda PG, 10th Cross Road, Kumaraswamy Layout, Bangalore, Karnataka, Pin- 560111</span>
+          </div>
+        </div>
       </div>
     </section>
   );
