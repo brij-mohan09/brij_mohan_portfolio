@@ -1,16 +1,42 @@
-# React + Vite
+# Brij Mohan — Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the source for **my personal portfolio website** — a project designed to highlight my skills, experience, and technical projects as a frontend developer.
 
-Currently, two official plugins are available:
+🔗 Live Demo: https://brij-mohan-portfolio.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 About The Project
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This portfolio site is built to showcase who I am as a developer, what technologies I work with, and the projects I’ve created or contributed to. It’s designed with performance, clarity, and responsiveness in mind.
 
-## Expanding the ESLint configuration
+Key highlights:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Clean, modern UI/UX
+- Fully responsive across devices
+- Projects section with live links and code
+- Accessible and professional design
+
+---
+
+## 🧠 Skills & Technologies
+
+This site and my projects utilize the following technologies:
+
+- **Frontend:** React, React Router, SCSS  
+- **Web Fundamentals:** HTML5, CSS3, JavaScript  
+- **Development & Tooling:** Vercel deployment, Git/GitHub workflows  
+
+---
+
+## 🛠 Features
+
+This portfolio includes:
+
+- **Header Navigation:** Quick access to page sections
+- **About Me:** Professional summary and experience overview
+- **Skills:** Technical competencies and tools used
+- **Projects:** Code examples and live previews
+- **Contact:** Methods to connect professionally
+
+---
