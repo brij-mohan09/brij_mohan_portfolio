@@ -6,7 +6,11 @@ const HeroSection = () => {
       <div className="hero-container container">
         <div className="hero-content">
           <div className="hero-profile">
-            <img src="/images/DSC_0772.JPG" alt="Brij Mohan" className="hero-profile-img"/>
+            <div className="hero-profile-circle">
+              <div className="hero-profile-inner">
+                <img src="/images/DSC_0772.JPG" alt="Brij Mohan" className="hero-profile-img"/>
+              </div>
+            </div>
           </div>
 
           <h1>Hi, I’m <span>Brij Mohan.</span></h1>

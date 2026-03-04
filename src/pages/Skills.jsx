@@ -7,47 +7,47 @@ const skillsData = [
   {
     name: "HTML",
     icon: <FaHtml5 />,
-    concepts: ["Semantic HTML", "Forms", "Accessibility", "SEO"]
+    concepts: ["HTML5", "Semantic HTML", "Forms & Validation", "Tables & Structured Data", "Multimedia Elements", "Responsive Images (picture, srcset)", "Meta Tags & SEO Basics", "Accessibility (ARIA, alt, labels)", "Data Attributes", "Embedded Content (iframe)"]
   },
   {
     name: "CSS",
     icon: <FaCss3Alt />,
-    concepts: ["Flexbox", "Grid", "Animations", "Responsive Design"]
+    concepts: ["Flexbox", "Grid Layout", "Responsive Design", "Media Queries", "Positioning", "Box Model", "CSS Variables", "Pseudo-classes & Pseudo-elements", "Transitions & Animations", "Basic Layout Architecture"]
   },
   {
     name: "JavaScript",
     icon: <FaJsSquare />,
-    concepts: ["ES6+", "Async/Await", "DOM", "Closures"]
+    concepts: ["ES6+ Syntax", "DOM Manipulation", "Event Handling", "Functions & Closures", "Arrays & Objects Methods", "Promises", "Async/Await", "Fetch API", "Error Handling", "Local Storage"]
   },
   {
     name: "React",
     icon: <FaReact />,
-    concepts: ["Hooks", "Context", "Components", "Lifecycle"]
+    concepts: ["Functional Components", "Props & State", "React Hooks (useState, useEffect)", "Conditional Rendering", "Lists & Keys", "Event Handling", "Component Composition", "React Router", "API Integration", "Basic Performance Optimization"]
   },
   {
     name: "Redux",
     icon: <SiRedux />,
-    concepts: ["Store", "Reducers", "Actions", "Middleware"]
+    concepts: ["State Management Basics", "Redux Store", "Actions", "Reducers", "Dispatch", "Redux Toolkit Basics"]
   },
   {
     name: "SCSS",
     icon: <FaSass />,
-    concepts: ["Variables", "Mixins", "Nesting"]
+    concepts: ["Variables", "Nesting", "Mixins", "Partials", "Importing SCSS Files"]
   },
   {
     name: "Tailwind",
     icon: <SiTailwindcss />,
-    concepts: ["Utility Classes", "Responsive", "Dark Mode"]
+    concepts: ["Utility-First Styling", "Spacing Utilities", "Typography Utilities", "Flexbox Utilities", "Responsive Utilities", "Basic Layout Styling"]
   },
   {
     name: "Git",
     icon: <FaGitAlt />,
-    concepts: ["Commits", "Branches", "Rebase", "Merge"]
+    concepts: ["Version Control Workflow", "Branching & Merging", "Pull Requests", "Conflict Resolution", "Git Rebase", "Git Stash", "Commit Best Practices", "Collaboration Workflow"]
   },
   {
     name: "Python",
     icon: <FaPython />,
-    concepts: ["OOP", "Data Structures", "Async", "Scripting"]
+    concepts: ["Python Syntax", "Variables & Data Types", "Conditional Statements", "Loops", "Functions", "Lists & Dictionaries", "Basic File Handling", "Simple Modules"]
   }
 ];
 
