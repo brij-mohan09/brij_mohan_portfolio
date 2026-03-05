@@ -8,7 +8,7 @@ const HeroSection = () => {
           <div className="hero-profile">
             <div className="hero-profile-circle">
               <div className="hero-profile-inner">
-                <img src="/images/DSC_0772.JPG" alt="Brij Mohan" className="hero-profile-img"/>
+                <img src="/images/brij_profile.png" alt="Brij Mohan" className="hero-profile-img"/>
               </div>
             </div>
           </div>
