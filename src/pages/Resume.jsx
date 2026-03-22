@@ -10,7 +10,7 @@ const Resume = () => {
 
         <div className="resume-actions">
           <a
-            href="/resume/Brij_Mohan_React_Frontend_Developer.pdf"
+            href="/public/resume/Brij_Mohan_React_Frontend_Developer.pdf"
             download
             className="resume-download"
           >
@@ -20,7 +20,7 @@ const Resume = () => {
 
         <div className="resume-viewer">
           <iframe
-            src="/resume/Brij_Mohan_React_Frontend_Developer.pdf"
+            src="/public/resume/Brij_Mohan_React_Frontend_Developer.pdf"
             title="Resume PDF"
             loading="lazy"
           />

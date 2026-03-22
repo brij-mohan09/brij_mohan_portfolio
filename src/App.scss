@@ -32,7 +32,7 @@ $footer-height: 12rem;
 /* ========== variables end ========== */
 
 /* ========== base style start ========== */
-* {
+*, *::after, *::before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -41,9 +41,9 @@ $footer-height: 12rem;
 
 html {
     font-size: 62.5%;
-}
-
-body {
+  }
+  
+  body {
   background: $bg-main;
   color: $text-primary;
   padding-top: $header-height;
@@ -52,6 +52,7 @@ body {
 
 a {
     text-decoration: none;
+    transition: background 0.3s ease, color 0.3s ease;
 }
 
 li {
@@ -71,7 +72,10 @@ li {
   top: 0;
   width: 100%;
   z-index: 1000;
-  background: $bg-elevated;
+  // background: $bg-elevated;
+  background: rgba(15, 23, 42, 0.6);
+  backdrop-filter: blur(1.2rem);
+  -webkit-backdrop-filter: blur(1.2rem);
   border-bottom: 1px solid $border;
   box-shadow: none;
 }
@@ -127,30 +131,38 @@ li {
     letter-spacing: 0.15rem;
     position: relative;
     transition: $transition;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
 
-    &::after {
-      content: "";
-      position: absolute;
-      left: 0;
-      bottom: -6px;
-      width: 0;
-      height: 2px;
-      background: $primary;
-      transition: $transition;
-    }
+    // &::after {
+    //   content: "";
+    //   position: absolute;
+    //   left: 0;
+    //   bottom: -6px;
+    //   width: 0;
+    //   height: 2px;
+    //   background: $primary;
+    //   transition: $transition;
+    // }
 
-    &:hover::after {
-      width: 100%;
+    &:hover {
+      // width: 100%;
+      background: $primary-soft;
+      color: $primary;
     }
+    // &:hover::after {
+    //   width: 100%;
+    // }
   }
 }
 
 .active-link {
   color: $primary !important;
+  background: $primary-soft;
 
-  &::after {
-    width: 100% !important;
-  }
+  // &::after {
+  //   width: 100% !important;
+  // }
 }
 
 .nav-menu-mobile {
@@ -176,6 +188,13 @@ li {
     text-transform: uppercase;
     color: $text-muted;
     transition: $transition;
+    padding: 0.8rem 1.4rem;
+    border-radius: 8px;
+
+    &:hover {
+      background: $primary-soft;
+      color: $primary;
+    }
   }
 }
 
@@ -950,9 +969,12 @@ li {
 
 /* ========== footer style start ========== */
 .footer {
-  background: $bg-elevated;
-  padding: 2rem 1rem;
+  // background: $bg-elevated;
+  background: rgba(15, 23, 42, 0.6);
+  backdrop-filter: blur(1.2rem);
+  -webkit-backdrop-filter: blur(1.2rem);
   border-top: 1px solid $border;
+  padding: 2rem 1rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1044,3 +1066,22 @@ li {
   }
 }
 /* ========== footer style end ========== */
+
+
+
+// /* ========== page transition ========== */
+
+// main {
+//   position: relative;
+//   min-height: calc(100vh - $header-height - $footer-height);
+//   overflow: hidden;
+// }
+
+// .page-wrapper {
+//   position: absolute;
+//   inset: 0;
+//   width: 100%;
+
+//   // will-change: transform, opacity;
+//   // backface-visibility: hidden;
+// }

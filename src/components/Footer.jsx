@@ -9,7 +9,7 @@ const Footer = () => {
             <p>&copy; Copyright Reserved 2026 | <span><NavLink to="/">Brij Mohan</NavLink></span></p>
         </div>
         <div className="social-link">
-          <a href="https://www.linkedin.com/in/brij-mohan09/" target="_blank"><FaLinkedinIn /></a>
+          <a href="https://www.linkedin.com/in/brijmohan-dev/" target="_blank"><FaLinkedinIn /></a>
           <a href="https://github.com/brij-mohan09" target="_blank"><FaGithub /></a>
           <a href="https://wa.me/917545099366" target="_blank" rel="noopener noreferrer"><FaWhatsapp /></a>
         </div>

@@ -8,11 +8,14 @@ import Contact from "./pages/Contact";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Resume from "./pages/Resume";
+// import Layout from "./Layout";
+
 
 const App = () => {
   return (
     <>
       <BrowserRouter>
+      {/* <Layout> */}
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -23,6 +26,7 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
+        {/* </Layout> */}
       </BrowserRouter>
     </>
   );
