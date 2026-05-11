@@ -1,34 +1,50 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import "./App.scss";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import "./App.css";
+import AppLayout from "./components/layout/AppLayout";
 import Home from "./pages/Home";
 import About from "./pages/About";
+import Resume from "./pages/Resume";
 import Skills from "./pages/Skills";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Resume from "./pages/Resume";
-// import Layout from "./Layout";
-
 
 const App = () => {
+
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <AppLayout />,
+      children: [
+        {
+          path: "/",
+          element: <Home />
+        },
+        {
+          path: "/about",
+          element: <About />
+        },
+        {
+          path: "/resume",
+          element: <Resume />
+        },
+        {
+          path: "/skills",
+          element: <Skills />
+        },
+        {
+          path: "/projects",
+          element: <Projects />
+        },
+        {
+          path: "/contact",
+          element: <Contact />
+        }
+      ]
+    }
+  ])
+
   return (
-    <>
-      <BrowserRouter>
-      {/* <Layout> */}
-        <Header />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/resume" element={<Resume />} />
-          <Route path="/skills" element={<Skills />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-        <Footer />
-        {/* </Layout> */}
-      </BrowserRouter>
-    </>
+    <RouterProvider router={router} />
   );
 }
 

@@ -7,13 +7,13 @@ const HeroSection = () => {
         <div className="hero-content">
           <div className="hero-profile">
             <div className="hero-profile-circle">
-              <div className="hero-profile-inner">
+              {/* <div className="hero-profile-inner">
                 <img src="/images/brij_profile.png" alt="Brij Mohan" className="hero-profile-img"/>
-              </div>
+              </div> */}
             </div>
           </div>
 
-          <h1>Hi, I’m <span>Brij Mohan.</span></h1>
+          <h1>Hi! I’m <span>Brij Mohan.</span></h1>
           <p>Frontend Developer crafting modern web experiences</p>
           <p>I build <strong>clean, scalable frontend interfaces</strong> focused on performance, accessibility, and real-world usability.</p>
           <p>From concept to production, I turn ideas into <strong> fast, intuitive, and reliable web experiences</strong>.</p>

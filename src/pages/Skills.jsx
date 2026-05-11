@@ -69,45 +69,45 @@ const skillsData = [
       "Redux Toolkit basics"
     ]
   },
-  {
-    name: "Node.js",
-    icon: <FaNodeJs />,
-    concepts: [
-      "Node.js runtime and event-driven architecture",
-      "Modules and require/import usage",
-      "Working with npm and package management",
-      "Creating basic HTTP servers",
-      "File system module basics",
-      "Environment variables and configuration",
-      "Basic asynchronous programming (callbacks, promises)"
-    ]
-  },
-  {
-    name: "Express.js",
-    icon: <SiExpress />,
-    concepts: [
-      "Creating an Express server",
-      "Routing (GET, POST, PUT, DELETE)",
-      "Middleware basics",
-      "Handling request and response objects",
-      "Building simple REST APIs",
-      "Basic error handling",
-      "Organizing routes and controllers"
-    ]
-  },
-  {
-    name: "MongoDB",
-    icon: <SiMongodb />,
-    concepts: [
-      "NoSQL database fundamentals",
-      "Documents and collections",
-      "Basic CRUD operations",
-      "Using MongoDB with Node.js",
-      "Simple queries and filtering",
-      "Schema basics with Mongoose",
-      "Connecting applications to MongoDB"
-    ]
-  },
+  // {
+  //   name: "Node.js",
+  //   icon: <FaNodeJs />,
+  //   concepts: [
+  //     "Node.js runtime and event-driven architecture",
+  //     "Modules and require/import usage",
+  //     "Working with npm and package management",
+  //     "Creating basic HTTP servers",
+  //     "File system module basics",
+  //     "Environment variables and configuration",
+  //     "Basic asynchronous programming (callbacks, promises)"
+  //   ]
+  // },
+  // {
+  //   name: "Express.js",
+  //   icon: <SiExpress />,
+  //   concepts: [
+  //     "Creating an Express server",
+  //     "Routing (GET, POST, PUT, DELETE)",
+  //     "Middleware basics",
+  //     "Handling request and response objects",
+  //     "Building simple REST APIs",
+  //     "Basic error handling",
+  //     "Organizing routes and controllers"
+  //   ]
+  // },
+  // {
+  //   name: "MongoDB",
+  //   icon: <SiMongodb />,
+  //   concepts: [
+  //     "NoSQL database fundamentals",
+  //     "Documents and collections",
+  //     "Basic CRUD operations",
+  //     "Using MongoDB with Node.js",
+  //     "Simple queries and filtering",
+  //     "Schema basics with Mongoose",
+  //     "Connecting applications to MongoDB"
+  //   ]
+  // },
   {
     name: "SCSS",
     icon: <FaSass />,
